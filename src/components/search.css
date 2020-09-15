@@ -1,0 +1,31 @@
+.cinput{
+    color:gray
+}
+.new-chat-window {
+    position: relative;
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .new-chat-window .fa {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  input:focus {
+    outline-color: blue;
+  }
+  
+  .new-chat-window-input {
+    border: 1px solid #ccc;
+    line-height: 30px;
+    padding-left: 30px;
+    width: 100%;
+    z-index: 1;
+  }
