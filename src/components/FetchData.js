@@ -54,7 +54,7 @@ class FetchData extends Component {
                 (  <div className="mt-5 border border-white bg-light">
                 {this.state.emoji.map((item,index)=>{
                    
-               if(item.subgroup===this.state.typedEmoji || item.name===this.state.typedEmoji || item.group===this.state.typedEmoji)
+               if(item.subgroup.toLowerCase()===this.state.typedEmoji.toLowerCase() || item.name.toLowerCase()===this.state.typedEmoji.toLowerCase() || item.group.toLowerCase()===this.state.typedEmoji.toLowerCase())
                {
                 const arr={ele:[]}
                 arr.ele.push(item)
